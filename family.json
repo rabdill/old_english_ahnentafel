@@ -88,7 +88,8 @@
             "name": "Joan Cobham",
             "title": "4th Baroness Cobham",
             "death": "abt 1434",
-            "father": 16
+            "father": 16,
+            "mother": 22
         },
         {
             "id": 16,
@@ -109,8 +110,7 @@
         {
             "id": 22,
             "name": "Maud de Moreville",
-            "father": 23,
-            "mother": 8
+            "father": 23
         },
         {
             "id": 23,

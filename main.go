@@ -48,7 +48,22 @@ func (person *Person) evaluateLine(family *Corpus, current int) {
 			family.findByID(person.Mother).evaluateLine(family, ((person.Ahnentafel * 2) + 1))
 		}
 	} else {
-		family.DoubleEntries[current] = person.Ahnentafel
+		// If a person appears multiple times in the tree,
+		// re-assign their ahnentafel number to the lowest
+		// value it can be, and re-evaluate their ancestors
+		// to match the new, lower numbers
+		if current > person.Ahnentafel {
+			family.DoubleEntries[current] = person.Ahnentafel
+		} else {
+			family.DoubleEntries[person.Ahnentafel] = current
+			person.Ahnentafel = current
+			if person.Father != 0 {
+				family.findByID(person.Father).evaluateLine(family, (person.Ahnentafel * 2))
+			}
+			if person.Mother != 0 {
+				family.findByID(person.Mother).evaluateLine(family, ((person.Ahnentafel * 2) + 1))
+			}
+		}
 	}
 }
 
@@ -71,6 +86,10 @@ func (corpus Corpus) printList() {
 	for _, k := range keys {
 		fmt.Printf("%d: %s\n", k, numbers[k])
 	}
+
+	// TODO: Remove chains of double entries. If there's a
+	// double entry at 500 pointing at entry 20, we don't
+	// also need a double entry at 1000 pointing at 40.
 }
 
 func main() {
