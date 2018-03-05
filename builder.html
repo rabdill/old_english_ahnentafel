@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <div>
+            Load person by ID: <input type="text" id="toLoad">
+            <button onclick="loadPersonToForm()">Load</button><br>
+            <button onclick="loadBackOneGeneration()">Back one generation</button>
+            
+            <br>
+            <table border="1">
+                <tr><td>ID:<td><input type="text" id="id">
+                <tr><td>Name:<td><input type="text" id="name">
+                <tr><td>Title:<td><input type="text" id="title">
+                <tr><td>Birth:<td><input type="text" id="birth">
+                <tr><td>Death:<td><input type="text" id="death">
+                <tr><td>Bio:<td><input type="text" id="bio">
+                <tr><td>Notes:<td><input type="text" id="notes">
+            </table>
+            <button onclick="addPersonFromForm()">RECORD PERSON</button><br>
+            <button onclick="addRelation('father')">Add father</button>
+            <button onclick="addRelation('mother')">Add mother</button><br><br>
+        </div>
+        <div>
+            <textarea id="result" rows="100" cols="100"></textarea>
+        </div>
+        <script src="input.js"></script>
+        <script src="builder.js"></script>
+    </body>
+</html>
