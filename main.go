@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 	"sort"
+	"strconv"
 )
 
 // Person - one family member
@@ -24,7 +25,8 @@ type Person struct {
 
 // Corpus - all the family members to be numbered
 type Corpus struct {
-	People []*Person
+	People        []*Person
+	DoubleEntries map[int]int
 }
 
 func (corpus *Corpus) findByID(id int) *Person {
@@ -45,6 +47,8 @@ func (person *Person) evaluateLine(family *Corpus, current int) {
 		if person.Mother != 0 {
 			family.findByID(person.Mother).evaluateLine(family, ((person.Ahnentafel * 2) + 1))
 		}
+	} else {
+		family.DoubleEntries[current] = person.Ahnentafel
 	}
 }
 
@@ -54,7 +58,9 @@ func (corpus Corpus) printList() {
 	for _, person := range corpus.People {
 		numbers[person.Ahnentafel] = person.Name
 	}
-	fmt.Printf("%v\n", numbers)
+	for entry, ref := range corpus.DoubleEntries {
+		numbers[entry] = strconv.Itoa(ref)
+	}
 	// get a slice of all the sorted numbers
 	var keys []int
 	for number := range numbers {
@@ -80,7 +86,7 @@ func main() {
 		fmt.Println("Couldn't find anyone in the file.")
 		os.Exit(1)
 	}
-
+	fam.DoubleEntries = make(map[int]int)
 	fam.People[0].evaluateLine(&fam, 1)
 
 	fam.printList()
