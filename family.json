@@ -1,0 +1,159 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Haute Wyatt",
+            "birth": "abt 1594",
+            "death": "31 Jul 1638 in Kent, England",
+            "bio": "Arrived at the Jamestown colony in late 1621 aboard the \textit{George} and served as minister there for several years before returning to England.",
+            "notes": "http://www.lamartin.com/genealogy/wyatt.htm",
+            "father": 2
+        },
+        {
+            "id": 2,
+            "name": "George Wyatt",
+            "birth": "abt 1553",
+            "death": "1624",
+            "bio": "Wrote a family history, published posthumously, under the title ``The papers of George Wyatt Esquire, of Boxley Abbey in the county of Kent, son and heir of Sir Thomas Wyatt the younger.''",
+            "notes": "https://en.wikipedia.org/wiki/George_Wyatt_(writer)",
+            "father": 3
+        },
+        {
+            "id": 3,
+            "name": "Thomas Wyatt",
+            "birth": "abt 1521",
+            "death": "11 Apr 1554",
+            "bio": "Led thousands of men in ``Wyatt's rebellion,'' an armed uprising in response to the announcement that England's Queen Mary I (``Bloody Mary'') would marry King Philip of Spain. Was soon captured, imprisoned at the Tower of London, and beheaded.",
+            "notes": "painting of him",
+            "father": 4,
+            "mother": 8
+        },
+        {
+            "id": 4,
+            "name": "Thomas Wyatt",
+            "birth": "1503",
+            "death": "11 Oct 1542",
+            "bio": "A member of Parliament and an influential English poet; he was among the first writers to bring the sonnet to England. Was for a time imprisoned in the Tower of London on charges he committed adultery with Queen Anne Boleyn.",
+            "notes": "drawings of him",
+            "father": 5,
+            "mother": 6
+        },
+        {
+            "id": 8,
+            "name": "Elizabeth Brooke",
+            "birth": "abt 1503",
+            "death": "1560",
+            "father": 9
+        },
+        {
+            "id": 9,
+            "name": "Thomas Brooke",
+            "title": "8th Baron Cobham",
+            "death": "19 Jul 1529",
+            "bio": "Served in Parliament for several years, and fought at the Siege of Tournay in 1513.",
+            "father": 10
+        },
+        {
+            "id": 10,
+            "name": "John Brooke",
+            "title": "7th Baron Cobham",
+            "father": 11
+        },
+        {
+            "id": 11,
+            "name": "Edward Brooke",
+            "title": "6th Baron Cobham",
+            "father": 12,
+            "mother": 13
+        },
+        {
+            "id": 12,
+            "name": "Thomas Brooke"
+        },
+        {
+            "id": 13,
+            "name": "Joan Braybroke",
+            "title": "5th Baroness Cobham",
+            "death": "abt 1442",
+            "father": 14,
+            "mother": 15
+        },
+        {
+            "id": 14,
+            "name": "John de la Pole",
+            "notes": "http://www.stirnet.com/HTML/genie/british/cc4aq/cobham01.htm"
+        },
+        {
+            "id": 15,
+            "name": "Joan Cobham",
+            "title": "4th Baroness Cobham",
+            "death": "abt 1434",
+            "father": 16
+        },
+        {
+            "id": 16,
+            "name": "John de Cobham",
+            "title": "3rd Baron Cobham",
+            "death": "10 Jan 1408",
+            "father": 17
+        },
+        {
+            "id": 17,
+            "name": "John de Cobham",
+            "title": "2nd Baron Cobham",
+            "death": "1355",
+            "bio": "Served in Parliament for several years.",
+            "father": 18,
+            "mother": 22
+        },
+        {
+            "id": 22,
+            "name": "Maud de Moreville",
+            "father": 23
+        },
+        {
+            "id": 23,
+            "name": "Eudes de Moreville"
+        },
+        {
+            "id": 18,
+            "name": "Henry de Cobham",
+            "title": "1st Baron Cobham",
+            "birth": "abt 1260",
+            "death": "25 Aug 1339",
+            "father": 19,
+            "mother": 20
+        },
+        {
+            "id": 19,
+            "name": "John de Cobham",
+            "title": "Sheriff of Kent"
+        },
+        {
+            "id": 20,
+            "name": "Joan de Septvans",
+            "father": 21
+        },
+        {
+            "id": 21,
+            "name": "Robert de Septvans"
+        },
+        {
+            "id": 5,
+            "name": "Henry Wyatt",
+            "birth": "abt 1460",
+            "death": "10 Nov 1537",
+            "bio": "A prominent English courtier, he served on the privy councils of kings Henry VII and Henry VIII. Made a knight of the Bath in 1509.",
+            "comments": "painting of him"
+        },
+        {
+            "id": 6,
+            "name": "Anne Skinner",
+            "father": 7
+        },
+        {
+            "id": 7,
+            "name": "John Skinner"
+        }
+    ]
+}
