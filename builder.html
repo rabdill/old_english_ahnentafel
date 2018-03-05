@@ -14,13 +14,15 @@
                 <tr><td>Death:<td><input type="text" id="death">
                 <tr><td>Bio:<td><input type="text" id="bio">
                 <tr><td>Notes:<td><input type="text" id="notes">
+                <tr><td>Father:<td><span id="father"></span>
+                <tr><td>Mother:<td><span id="mother"></span>
             </table>
             <button onclick="addPersonFromForm()">RECORD PERSON</button><br>
             <button onclick="addRelation('father')">Add father</button>
             <button onclick="addRelation('mother')">Add mother</button><br><br>
         </div>
         <div>
-            <textarea id="result" rows="100" cols="100"></textarea>
+            <textarea id="result" rows="20" cols="100"></textarea>
         </div>
         <script src="input.js"></script>
         <script src="builder.js"></script>

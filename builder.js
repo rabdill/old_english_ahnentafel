@@ -27,6 +27,7 @@ function setFormValue(id, value) {
     if(value) { // don't write "undefined" in a bunch of places
         result = document.getElementById(id);
         result.value = value;
+        result.innerHTML = value; // covers fields that aren't inputs
     }
 }
 
@@ -34,16 +35,24 @@ function setFormValue(id, value) {
 function clearFormValue(id) {
     result = document.getElementById(id);
     result.value = "";
+    result.innerHTML = "";
 }
 
 // load the person with a specified ID into the form
-function loadPersonToForm() {
-    id = getFormValue("toLoad");
+function loadPersonToForm(id) {
+    if(id == undefined) id = getFormValue("toLoad");
     for(var i=0; person = data.people[i]; i++) {
         if(person.id == id) {
             for (var field of formFields) {
                 setFormValue(field, person[field]);
             }
+            if(person.father) {
+                setFormValue("father", data.people[findIndexByID(person.father)].name);
+            } else clearFormValue("father");
+            if(person.mother) {
+                setFormValue("mother", data.people[findIndexByID(person.mother)].name);
+            } else clearFormValue("mother");
+            break;
         }
     }
     clearFormValue("toLoad");
@@ -51,11 +60,12 @@ function loadPersonToForm() {
 
 function loadBackOneGeneration() {
     id = getFormValue("id");
-    for(var i=0; person = data.people[i]; i++) {
+    // start at the most recently added and search backward,
+    // so this will return the most recently added child in 
+    // cases where there are more than one
+    for(var i=data.people.length-1; person = data.people[i]; i--) {
         if(person.mother == id || person.father == id) {
-            for (var field of formFields) {
-                setFormValue(field, person[field]);
-            }
+            loadPersonToForm(person.id)
         }
     }
 }
@@ -82,8 +92,9 @@ function addRelation(relation) {
     data.people[current][relation] = max;
     for (var field of formFields) {
         clearFormValue(field);
-        console.log(field)
     }
+    clearFormValue("father");
+    clearFormValue("mother");
     setFormValue("id", max);
     printResult();
 }
