@@ -39,12 +39,12 @@ func (corpus *Corpus) findByID(id int) *Person {
 func (person *Person) evaluateLine(family *Corpus, current int) {
 	if person.Ahnentafel == 0 {
 		person.Ahnentafel = current
-	}
-	if person.Father != 0 {
-		family.findByID(person.Father).evaluateLine(family, (person.Ahnentafel * 2))
-	}
-	if person.Mother != 0 {
-		family.findByID(person.Mother).evaluateLine(family, ((person.Ahnentafel * 2) + 1))
+		if person.Father != 0 {
+			family.findByID(person.Father).evaluateLine(family, (person.Ahnentafel * 2))
+		}
+		if person.Mother != 0 {
+			family.findByID(person.Mother).evaluateLine(family, ((person.Ahnentafel * 2) + 1))
+		}
 	}
 }
 
