@@ -334,7 +334,8 @@
             "death": "19 Oct 1356",
             "bio": "",
             "notes": "in Volume I as 2,931, but we skipped her ancestors the first time through",
-            "father": 42
+            "father": 42,
+            "mother": 67
         },
         {
             "id": 42,
@@ -384,7 +385,8 @@
             "death": "11 Apr 1304 in Ireland",
             "bio": "",
             "notes": "",
-            "father": 47
+            "father": 47,
+            "mother": 66
         },
         {
             "id": 47,
@@ -394,7 +396,8 @@
             "death": "",
             "bio": "",
             "notes": "",
-            "father": 48
+            "father": 48,
+            "mother": 63
         },
         {
             "id": 48,
@@ -544,6 +547,375 @@
             "death": "",
             "bio": "See Volume I, number 263,745.",
             "notes": ""
+        },
+        {
+            "id": 63,
+            "name": "Margaret de Braose",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 64,
+            "mother": 65
+        },
+        {
+            "id": 64,
+            "name": "William de Braose",
+            "title": "4th Lord of Bramber",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 65,952.",
+            "notes": ""
+        },
+        {
+            "id": 65,
+            "name": "Maud de St. Valery",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 65,953.",
+            "notes": ""
+        },
+        {
+            "id": 66,
+            "name": "Isabel Bigod",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 11,715.",
+            "notes": ""
+        },
+        {
+            "id": 67,
+            "name": "Joan of Lusignan",
+            "title": "",
+            "birth": "abt 1260",
+            "death": "13 Apr 1323 in France",
+            "bio": "",
+            "notes": "",
+            "father": 68
+        },
+        {
+            "id": 68,
+            "name": "Hugh XII of Lusignan",
+            "title": "Count of Angouleme",
+            "birth": "",
+            "death": "1270",
+            "bio": "Killed fighting in the Eighth Crusade, 20 years after his father was killed fighting in the Seventh.",
+            "notes": "",
+            "father": 69,
+            "mother": 72
+        },
+        {
+            "id": 69,
+            "name": "Hugh XI of Lusignan",
+            "title": "",
+            "birth": "1221",
+            "death": "6 Apr 1250",
+            "bio": "Killed fighting in Egypt in the Seventh Crusade, at the Battle of Fariskur.",
+            "notes": "",
+            "father": 70,
+            "mother": 71
+        },
+        {
+            "id": 70,
+            "name": "Hugh X, Seigneur of Lusignan",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 23,402.",
+            "notes": ""
+        },
+        {
+            "id": 71,
+            "name": "Isabella of Angouleme",
+            "title": "Queen of England",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 16,497.",
+            "notes": ""
+        },
+        {
+            "id": 72,
+            "name": "Yolande of Brittany",
+            "title": "",
+            "birth": "1218",
+            "death": "10 Oct 1272",
+            "bio": "",
+            "notes": "",
+            "father": 73,
+            "mother": 76
+        },
+        {
+            "id": 73,
+            "name": "Peter I",
+            "title": "Duke of Brittany",
+            "birth": "abt 1187",
+            "death": "26 May 1250",
+            "bio": "Fought in the Barons' Crusade of 1239; later died at sea during the Seventh Crusade.",
+            "notes": "",
+            "father": 74,
+            "mother": 75
+        },
+        {
+            "id": 74,
+            "name": "Robert II",
+            "title": "Count of Dreux",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 93,262.",
+            "notes": ""
+        },
+        {
+            "id": 75,
+            "name": "Yolanda de Coucy",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 93,263.",
+            "notes": ""
+        },
+        {
+            "id": 76,
+            "name": "Alix",
+            "title": "Duchess of Brittany",
+            "birth": "1200",
+            "death": "21 Oct 1221",
+            "bio": "",
+            "notes": "",
+            "father": 77,
+            "mother": 80
+        },
+        {
+            "id": 77,
+            "name": "Guy of Thouars",
+            "title": "",
+            "birth": "",
+            "death": "13 Apr 1213",
+            "bio": "",
+            "notes": "",
+            "father": 78,
+            "mother": 79
+        },
+        {
+            "id": 78,
+            "name": "Geoffroy IV of Thouars",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 79,
+            "name": "Aenor de Lusignan",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 80,
+            "name": "Constance",
+            "title": "Duchess of Brittany",
+            "birth": "abt 1161",
+            "death": "1201",
+            "bio": "Featured as a character in ``King John,'' by William Shakespeare.",
+            "notes": "",
+            "father": 81
+        },
+        {
+            "id": 81,
+            "name": "Conan IV",
+            "title": "Duke of Brittany",
+            "birth": "abt 1138",
+            "death": "20 Feb 1171",
+            "bio": "",
+            "notes": "",
+            "father": 82,
+            "mother": 96
+        },
+        {
+            "id": 82,
+            "name": "Alan",
+            "title": "1st Earl of Richmond",
+            "birth": "",
+            "death": "15 Sep 1146",
+            "bio": "",
+            "notes": "",
+            "father": 83,
+            "mother": 95
+        },
+        {
+            "id": 83,
+            "name": "Stephen",
+            "title": "Count of Treguier",
+            "birth": "abt 1058",
+            "death": "21 Apr 1136",
+            "bio": "",
+            "notes": "",
+            "father": 84,
+            "mother": 91
+        },
+        {
+            "id": 84,
+            "name": "Odo of Rennes",
+            "title": "Count of Penthievre",
+            "birth": "abt 999",
+            "death": "abt 1079",
+            "bio": "Trained thousands of troops for the army of William the Conquerer in preparation for the Norman Invasion of 1066.",
+            "notes": "",
+            "father": 85,
+            "mother": 88
+        },
+        {
+            "id": 85,
+            "name": "Geoffrey I",
+            "title": "Duke of Brittany",
+            "birth": "abt 980",
+            "death": "20 Nov 1008",
+            "bio": "Died while on a pilgrimage to Rome.",
+            "notes": "",
+            "father": 86,
+            "mother": 87
+        },
+        {
+            "id": 86,
+            "name": "Conan I of Rennes",
+            "title": "Duke of Brittany",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 2,111,522.",
+            "notes": ""
+        },
+        {
+            "id": 87,
+            "name": "Ermengarde of Anjou",
+            "title": "Countess of Rennes",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 2,111,523.",
+            "notes": ""
+        },
+        {
+            "id": 88,
+            "name": "Hawise of Normandy",
+            "title": "Countess of Rennes",
+            "birth": "",
+            "death": "21 Feb 1034",
+            "bio": "",
+            "notes": "",
+            "father": 89,
+            "mother": 90
+        },
+        {
+            "id": 89,
+            "name": "Richard the Fearless",
+            "title": "Count of Rouen",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 2,111,520.",
+            "notes": ""
+        },
+        {
+            "id": 90,
+            "name": "Gunnora",
+            "title": "Duchess of Normandy",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 2,111,521.",
+            "notes": ""
+        },
+        {
+            "id": 91,
+            "name": "Agnes of Cornouaille",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 92,
+            "mother": 94
+        },
+        {
+            "id": 92,
+            "name": "Alain Canhiart",
+            "title": "",
+            "birth": "",
+            "death": "1058",
+            "bio": "His grave in Quimperle, in Brittany, was destroyed during the French Revolution.",
+            "notes": "",
+            "father": 93
+        },
+        {
+            "id": 93,
+            "name": "Benoit de Cornouaille",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 94,
+            "name": "Judith of Nantes",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 95,
+            "name": "Hawise de Guingamp",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 96,
+            "name": "Bertha",
+            "title": "Duchess of Brittany",
+            "birth": "",
+            "death": "abt 1158",
+            "bio": "",
+            "notes": "",
+            "father": 97
+        },
+        {
+            "id": 97,
+            "name": "Conan III",
+            "title": "Duke of Brittany",
+            "birth": "abt 1093",
+            "death": "17 Sep 1148",
+            "bio": "",
+            "notes": "",
+            "father": 98
+        },
+        {
+            "id": 98,
+            "name": "Alan IV",
+            "title": "Duke of Brittany",
+            "birth": "abt 1063",
+            "death": "13 Oct 1119",
+            "bio": "Fought in the First Crusade.",
+            "notes": "",
+            "father": 99
+        },
+        {
+            "id": 99,
+            "name": "Hoel II",
+            "title": "Duke of Brittany",
+            "birth": "abt 1031",
+            "death": "1084",
+            "bio": "",
+            "notes": "",
+            "father": 92,
+            "mother": 94
         }
     ]
 }
