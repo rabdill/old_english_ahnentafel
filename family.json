@@ -159,7 +159,7 @@
             "name": "John Skinner"
         },
         {
-            "id": "24",
+            "id": 24,
             "name": "Joan of Beauchamp",
             "title": "",
             "birth": "",
@@ -169,7 +169,7 @@
             "father": 25
         },
         {
-            "id": "25",
+            "id": 25,
             "name": "John of Beauchamp",
             "title": "",
             "birth": "",
@@ -178,7 +178,7 @@
             "notes": ""
         },
         {
-            "id": "26",
+            "id": 26,
             "name": "Margaret Courtenay",
             "title": "",
             "birth": "",
@@ -189,7 +189,7 @@
             "mother": 28
         },
         {
-            "id": "27",
+            "id": 27,
             "name": "Hugh de Courtenay",
             "title": "10th Earl of Devon",
             "birth": "",
@@ -198,7 +198,7 @@
             "notes": ""
         },
         {
-            "id": "28",
+            "id": 28,
             "name": "Margaret de Bohun",
             "title": "",
             "birth": "",
@@ -207,7 +207,7 @@
             "notes": ""
         },
         {
-            "id": "29",
+            "id": 29,
             "name": "Elizabeth Touchet",
             "title": "",
             "birth": "abt 1433",
@@ -217,7 +217,7 @@
             "father": 30
         },
         {
-            "id": "30",
+            "id": 30,
             "name": "James Tuchet",
             "title": "5th Baron Audley",
             "birth": "abt 1398",
@@ -227,7 +227,7 @@
             "father": 31
         },
         {
-            "id": "31",
+            "id": 31,
             "name": "John Tuchet",
             "title": "4th Baron Audley",
             "birth": "23 Apr 1371",
@@ -237,7 +237,7 @@
             "father": 32
         },
         {
-            "id": "32",
+            "id": 32,
             "name": "John Tuchet",
             "title": "",
             "birth": "",
@@ -248,7 +248,7 @@
             "mother": 34
         },
         {
-            "id": "33",
+            "id": 33,
             "name": "John Tuchet",
             "title": "",
             "birth": "",
@@ -257,7 +257,7 @@
             "notes": ""
         },
         {
-            "id": "34",
+            "id": 34,
             "name": "Joan Audley",
             "title": "",
             "birth": "",
@@ -268,7 +268,7 @@
             "mother": 39
         },
         {
-            "id": "35",
+            "id": 35,
             "name": "James Audley",
             "title": "2nd Baron Audley",
             "birth": "8 Jan 1313",
@@ -279,7 +279,7 @@
             "mother": 37
         },
         {
-            "id": "36",
+            "id": 36,
             "name": "Nicholas Audley",
             "title": "1st Baron Audley",
             "birth": "",
@@ -288,7 +288,7 @@
             "notes": ""
         },
         {
-            "id": "37",
+            "id": 37,
             "name": "Joan FitzMartin",
             "title": "",
             "birth": "",
@@ -298,7 +298,7 @@
             "father": 38
         },
         {
-            "id": "38",
+            "id": 38,
             "name": "William FitzMartin",
             "title": "",
             "birth": "",
@@ -307,7 +307,7 @@
             "notes": ""
         },
         {
-            "id": "39",
+            "id": 39,
             "name": "Joan Mortimer",
             "title": "",
             "birth": "",
@@ -318,7 +318,7 @@
             "mother": 41
         },
         {
-            "id": "40",
+            "id": 40,
             "name": "Roger Mortimer",
             "title": "",
             "birth": "",
@@ -327,7 +327,7 @@
             "notes": ""
         },
         {
-            "id": "41",
+            "id": 41,
             "name": "Joan de Geneville",
             "title": "2nd Baroness Geneville",
             "birth": "2 Feb 1286",
@@ -337,7 +337,7 @@
             "father": 42
         },
         {
-            "id": "42",
+            "id": 42,
             "name": "Piers de Geneville",
             "title": "",
             "birth": "",
@@ -348,7 +348,7 @@
             "mother": 46
         },
         {
-            "id": "43",
+            "id": 43,
             "name": "Geoffrey de Geneville",
             "title": "Justiciar of Ireland",
             "birth": "",
@@ -359,7 +359,7 @@
             "mother": 45
         },
         {
-            "id": "44",
+            "id": 44,
             "name": "Simon de Joinville",
             "title": "",
             "birth": "",
@@ -368,7 +368,7 @@
             "notes": ""
         },
         {
-            "id": "45",
+            "id": 45,
             "name": "Beatrix d'Auxonne",
             "title": "",
             "birth": "",
@@ -377,7 +377,7 @@
             "notes": ""
         },
         {
-            "id": "46",
+            "id": 46,
             "name": "Maud de Lacy",
             "title": "Baroness Geneville",
             "birth": "1230 in Dublin",
@@ -387,7 +387,7 @@
             "father": 47
         },
         {
-            "id": "47",
+            "id": 47,
             "name": "Gilbert de Lacy",
             "title": "",
             "birth": "",
@@ -397,27 +397,29 @@
             "father": 48
         },
         {
-            "id": "48",
+            "id": 48,
             "name": "Walter de Lacy",
             "title": "",
             "birth": "abt 1172",
             "death": "1241 in Ireland",
             "bio": "",
             "notes": "",
-            "father": 49
+            "father": 49,
+            "mother": 55
         },
         {
-            "id": "49",
+            "id": 49,
             "name": "Hugh de Lacy",
             "title": "",
             "birth": "",
             "death": "25 Jul 1186",
             "bio": "Participated in King Henry II's invasion of Ireland, after which he built multiple castles. Assassinated several years later by an Irish partisan.",
             "notes": "",
-            "father": 50
+            "father": 50,
+            "mother": 54
         },
         {
-            "id": "50",
+            "id": 50,
             "name": "Gilbert de Lacy",
             "title": "",
             "birth": "",
@@ -427,22 +429,120 @@
             "father": 51
         },
         {
-            "id": "51",
+            "id": 51,
             "name": "Roger de Lacy",
             "title": "",
             "birth": "",
             "death": "",
             "bio": "A Marcher Lord, one of the noblemen holding lands on the Welsh border.",
             "notes": "",
-            "father": 52
+            "father": 52,
+            "mother": 53
         },
         {
-            "id": "52",
+            "id": 52,
             "name": "Walter de Lacy",
             "title": "",
             "birth": "",
             "death": "27 Mar 1085",
             "bio": "A Norman nobleman who obtained lands in England after the Invasion of 1066. Died after falling off of scaffolding at a monastery.",
+            "notes": ""
+        },
+        {
+            "id": 53,
+            "name": "Emma",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 54,
+            "name": "Agnes",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 55,
+            "name": "Rohese of Monmouth",
+            "title": "",
+            "birth": "",
+            "death": "abt 1180",
+            "bio": "",
+            "notes": "",
+            "father": 56,
+            "mother": 60
+        },
+        {
+            "id": 56,
+            "name": "Baderon of Monmouth",
+            "title": "",
+            "birth": "abt 1100",
+            "death": "1176",
+            "bio": "",
+            "notes": "",
+            "father": 57,
+            "mother": 59
+        },
+        {
+            "id": 57,
+            "name": "William fitzBaderon",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "A prolific English landholder.",
+            "notes": "",
+            "father": 58
+        },
+        {
+            "id": 58,
+            "name": "Baderon of La Boussac",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 59,
+            "name": "Hawise",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": 60,
+            "name": "Rohese de Clare",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 61,
+            "mother": 62
+        },
+        {
+            "id": 61,
+            "name": "Gilbert Fitz Richard de Clare",
+            "title": "2nd Lord of Clare",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 263,744.",
+            "notes": ""
+        },
+        {
+            "id": 62,
+            "name": "Adeliza de Claremont",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 263,745.",
             "notes": ""
         }
     ]

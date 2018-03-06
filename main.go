@@ -35,6 +35,7 @@ func (corpus *Corpus) findByID(id int) *Person {
 			return corpus.People[i]
 		}
 	}
+	fmt.Printf("WARNING: ID |%d| not found?", id)
 	return nil
 }
 

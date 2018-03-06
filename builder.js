@@ -73,7 +73,7 @@ function loadBackOneGeneration() {
 // record the newly input person into the collection
 function addPersonFromForm() {
     newPerson = {
-        id: getFormValue("id"),
+        id: parseInt(getFormValue("id")),
         name: getFormValue("name"),
         title: getFormValue("title"),
         birth: getFormValue("birth"),
