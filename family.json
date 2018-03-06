@@ -57,7 +57,8 @@
             "id": 10,
             "name": "John Brooke",
             "title": "7th Baron Cobham",
-            "father": 11
+            "father": 11,
+            "mother": 29
         },
         {
             "id": 11,
@@ -89,14 +90,15 @@
             "title": "4th Baroness Cobham",
             "death": "abt 1434",
             "father": 16,
-            "mother": 22
+            "mother": 26
         },
         {
             "id": 16,
             "name": "John de Cobham",
             "title": "3rd Baron Cobham",
             "death": "10 Jan 1408",
-            "father": 17
+            "father": 17,
+            "mother": 24
         },
         {
             "id": 17,
@@ -155,6 +157,293 @@
         {
             "id": 7,
             "name": "John Skinner"
+        },
+        {
+            "id": "24",
+            "name": "Joan of Beauchamp",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 25
+        },
+        {
+            "id": "25",
+            "name": "John of Beauchamp",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "26",
+            "name": "Margaret Courtenay",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 27,
+            "mother": 28
+        },
+        {
+            "id": "27",
+            "name": "Hugh de Courtenay",
+            "title": "10th Earl of Devon",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 1,412.",
+            "notes": ""
+        },
+        {
+            "id": "28",
+            "name": "Margaret de Bohun",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 1,413.",
+            "notes": ""
+        },
+        {
+            "id": "29",
+            "name": "Elizabeth Touchet",
+            "title": "",
+            "birth": "abt 1433",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 30
+        },
+        {
+            "id": "30",
+            "name": "James Tuchet",
+            "title": "5th Baron Audley",
+            "birth": "abt 1398",
+            "death": "23 Sep 1459",
+            "bio": "Fought in the Hundred Years' War, then became a prominent commander for the Lancasters in the Wars of the Roses; was killed at the Battle of Blore Heath, where ``Audley's Cross'' still stands, allegedly marking the spot where he died.",
+            "notes": "coat of arms",
+            "father": 31
+        },
+        {
+            "id": "31",
+            "name": "John Tuchet",
+            "title": "4th Baron Audley",
+            "birth": "23 Apr 1371",
+            "death": "19 Dec 1408",
+            "bio": "",
+            "notes": "",
+            "father": 32
+        },
+        {
+            "id": "32",
+            "name": "John Tuchet",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 33,
+            "mother": 34
+        },
+        {
+            "id": "33",
+            "name": "John Tuchet",
+            "title": "",
+            "birth": "",
+            "death": "abt 1371",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "34",
+            "name": "Joan Audley",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 35,
+            "mother": 39
+        },
+        {
+            "id": "35",
+            "name": "James Audley",
+            "title": "2nd Baron Audley",
+            "birth": "8 Jan 1313",
+            "death": "1 Apr 1386",
+            "bio": "",
+            "notes": "",
+            "father": 36,
+            "mother": 37
+        },
+        {
+            "id": "36",
+            "name": "Nicholas Audley",
+            "title": "1st Baron Audley",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "37",
+            "name": "Joan FitzMartin",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 38
+        },
+        {
+            "id": "38",
+            "name": "William FitzMartin",
+            "title": "",
+            "birth": "",
+            "death": "1324",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "39",
+            "name": "Joan Mortimer",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 40,
+            "mother": 41
+        },
+        {
+            "id": "40",
+            "name": "Roger Mortimer",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "See Volume I, number 2,930.",
+            "notes": ""
+        },
+        {
+            "id": "41",
+            "name": "Joan de Geneville",
+            "title": "2nd Baroness Geneville",
+            "birth": "2 Feb 1286",
+            "death": "19 Oct 1356",
+            "bio": "",
+            "notes": "in Volume I as 2,931, but we skipped her ancestors the first time through",
+            "father": 42
+        },
+        {
+            "id": "42",
+            "name": "Piers de Geneville",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 43,
+            "mother": 46
+        },
+        {
+            "id": "43",
+            "name": "Geoffrey de Geneville",
+            "title": "Justiciar of Ireland",
+            "birth": "",
+            "death": "21 Oct 1314 in Ireland",
+            "bio": "Fought in the Eighth Crusade and served as chief governor of Ireland from 1273 to 1276.",
+            "notes": "",
+            "father": 44,
+            "mother": 45
+        },
+        {
+            "id": "44",
+            "name": "Simon de Joinville",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "45",
+            "name": "Beatrix d'Auxonne",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": ""
+        },
+        {
+            "id": "46",
+            "name": "Maud de Lacy",
+            "title": "Baroness Geneville",
+            "birth": "1230 in Dublin",
+            "death": "11 Apr 1304 in Ireland",
+            "bio": "",
+            "notes": "",
+            "father": 47
+        },
+        {
+            "id": "47",
+            "name": "Gilbert de Lacy",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "",
+            "notes": "",
+            "father": 48
+        },
+        {
+            "id": "48",
+            "name": "Walter de Lacy",
+            "title": "",
+            "birth": "abt 1172",
+            "death": "1241 in Ireland",
+            "bio": "",
+            "notes": "",
+            "father": 49
+        },
+        {
+            "id": "49",
+            "name": "Hugh de Lacy",
+            "title": "",
+            "birth": "",
+            "death": "25 Jul 1186",
+            "bio": "Participated in King Henry II's invasion of Ireland, after which he built multiple castles. Assassinated several years later by an Irish partisan.",
+            "notes": "",
+            "father": 50
+        },
+        {
+            "id": "50",
+            "name": "Gilbert de Lacy",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "Joined the Knights Templar in about 1158 and became a commander in conflicts around Jerusalem.",
+            "notes": "",
+            "father": 51
+        },
+        {
+            "id": "51",
+            "name": "Roger de Lacy",
+            "title": "",
+            "birth": "",
+            "death": "",
+            "bio": "A Marcher Lord, one of the noblemen holding lands on the Welsh border.",
+            "notes": "",
+            "father": 52
+        },
+        {
+            "id": "52",
+            "name": "Walter de Lacy",
+            "title": "",
+            "birth": "",
+            "death": "27 Mar 1085",
+            "bio": "A Norman nobleman who obtained lands in England after the Invasion of 1066. Died after falling off of scaffolding at a monastery.",
+            "notes": ""
         }
     ]
 }
