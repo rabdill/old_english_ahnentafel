@@ -47,9 +47,12 @@ function loadPersonToForm(id) {
                 clearFormValue(field);
                 setFormValue(field, person[field]);
             }
+            clearFormValue("father_override");
             if(person.father) {
                 setFormValue("father", data.people[findIndexByID(person.father)].name);
             } else clearFormValue("father");
+
+            clearFormValue("mother_override");
             if(person.mother) {
                 setFormValue("mother", data.people[findIndexByID(person.mother)].name);
             } else clearFormValue("mother");
@@ -82,6 +85,11 @@ function addPersonFromForm() {
         bio: getFormValue("bio"),
         notes: getFormValue("notes")
     };
+    father = getFormValue("father_override");
+    mother = getFormValue("mother_override");
+    if(father != "") newPerson.father = parseInt(father);
+    if(mother != "") newPerson.mother = parseInt(mother);
+
     data.people.push(newPerson);
     printResult();
 }
