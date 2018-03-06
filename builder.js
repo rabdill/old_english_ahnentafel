@@ -44,6 +44,7 @@ function loadPersonToForm(id) {
     for(var i=0; person = data.people[i]; i++) {
         if(person.id == id) {
             for (var field of formFields) {
+                clearFormValue(field);
                 setFormValue(field, person[field]);
             }
             if(person.father) {
