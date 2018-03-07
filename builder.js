@@ -16,6 +16,18 @@ function printResult() {
     result.innerHTML = JSON.stringify(data, null, 4);
 }
 
+function determineNextID() {
+    // determine the highest ID in use by the people,
+    // so we have a starting point for new ones:
+    max = 0;
+    for(var i=0; i < data.people.length; i++) {
+        if (data.people[i].id > max) {
+            max = data.people[i].id;
+        }
+    }
+    return ++max;
+}
+
 // fetch a form field's current value
 function getFormValue(id) {
     result = document.getElementById(id);
@@ -95,16 +107,15 @@ function addPersonFromForm() {
 }
 
 function addRelation(relation) {
-    max++;
     // find current person's position in the array:
     current = findIndexByID(getFormValue("id"));
-    data.people[current][relation] = max;
+    data.people[current][relation] = determineNextID();
     for (var field of formFields) {
         clearFormValue(field);
     }
     clearFormValue("father");
     clearFormValue("mother");
-    setFormValue("id", max);
+    setFormValue("id", data.people[current][relation]);
     printResult();
 }
 
@@ -113,11 +124,3 @@ function addRelation(relation) {
 
 // print out any pre-loaded people:
 printResult()
-// determine the highest ID in use by the people,
-// so we have a starting point for new ones:
-max = 0;
-for(var i=0; i < data.people.length; i++) {
-    if (data.people[i].id > max) {
-        max = data.people[i].id;
-    }
-}
